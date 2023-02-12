@@ -318,15 +318,16 @@ header {
 }
 
 .header-contact-list-item .header-icon {
+  display: flex;
   margin-right: 10px;
+  fill: darkblue;
+  border: #000000;
 }
 
-/* .main-list-icon {
-} */
-
 .main-list-background {
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
-  fill: #f5f4fa;
-  rx: 4px;
+  border-radius: 4px;
+  padding: 25px 100px;
 }
