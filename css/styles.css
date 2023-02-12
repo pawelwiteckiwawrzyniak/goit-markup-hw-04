@@ -6,6 +6,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--secondary-color);
+  width: 1600px;
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -179,17 +181,14 @@ footer {
 }
 .team-section {
   background-color: #f5f4fa;
-  width: 1600px;
   height: 648px;
   margin: 0 auto;
   padding: 94px 215px;
 }
-header {
-  height: 80px;
+.header-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ececec;
 }
 .header-contact-group {
   display: flex;
@@ -210,8 +209,6 @@ header {
 }
 .main-title-section {
   height: 600px;
-  width: 1600px;
-  margin: 0 auto;
   text-align: center;
   padding: 200px 452px 280px 452px;
 }
@@ -302,4 +299,10 @@ address p {
 
 .navigation-page .current-page {
   color: var(--main-color);
+}
+
+header {
+  width: 1600px;
+  border-bottom: 1px solid #ececec;
+  padding: 24px 0 25px 0;
 }
