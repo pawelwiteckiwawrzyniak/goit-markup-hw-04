@@ -35,9 +35,7 @@ a {
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
-.header-contact:first-child {
-  margin-right: 50px;
-}
+
 .footer-contact {
   color: #757575;
 }
@@ -102,6 +100,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 .main-list-item {
   display: flex;
@@ -190,7 +189,7 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-.header-contact-group {
+.header-contact-list {
   display: flex;
   list-style: none;
 }
@@ -211,6 +210,8 @@ footer {
   height: 600px;
   text-align: center;
   padding: 200px 452px 280px 452px;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/main-background.jpg);
 }
 .navigation-page a {
   color: var(--secondary-color);
@@ -305,4 +306,27 @@ header {
   width: 1600px;
   border-bottom: 1px solid #ececec;
   padding: 24px 0 25px 0;
+}
+
+.mail {
+  margin-right: 50px;
+}
+
+.header-contact-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.header-contact-list-item .header-icon {
+  margin-right: 10px;
+}
+
+/* .main-list-icon {
+} */
+
+.main-list-background {
+  width: 270px;
+  height: 120px;
+  fill: #f5f4fa;
+  rx: 4px;
 }
