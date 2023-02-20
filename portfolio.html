@@ -25,24 +25,30 @@
             <nav>
               <ul class="navigation">
                 <li class="navigation-page">
-                  <a class="current-page" href="./index.html">Agencja</a>
+                  <a href="./index.html">Agencja</a>
                 </li>
                 <li class="navigation-page">
-                  <a href="./portfolio.html">Portfolio</a>
+                  <a class="current-page" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="navigation-page"><a href="#contact">Kontakt</a></li>
               </ul>
             </nav>
           </li>
         </ul>
-        <ul class="header-contact-group">
-          <li>
-            <a class="header-contact" href="mailto:info@devstudio.com"
+        <ul class="header-contact-list">
+          <li class="header-contact-list-item">
+            <svg class="header-icon" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            <a class="header-contact mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="header-contact" href="tel:+48111111111"
+          <li class="header-contact-list-item">
+            <svg class="header-icon" width="10px" height="16px">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            <a class="header-contact phone" href="tel:+48111111111"
               >+48 111 111 111</a
             >
           </li>
@@ -200,20 +206,49 @@
       </section>
     </main>
     <footer id="contact">
-      <a class="footer-logo" href="./index.html"
-        ><span class="logo-color">Web</span>Studio</a
-      >
-      <address>
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <p>
-          <a class="footer-contact" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </p>
-        <p>
-          <a class="footer-contact" href="tel:+48111111111">+48 111 111 111</a>
-        </p>
-      </address>
+      <div class="footer-contact-section">
+        <a class="footer-logo" href="./index.html"
+          ><span class="logo-color">Web</span>Studio</a
+        >
+        <address>
+          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+          <p>
+            <a class="footer-contact" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </p>
+          <p>
+            <a class="footer-contact" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </p>
+        </address>
+      </div>
+      <div class="footer-social-media-section">
+        <p class="footer-social-media-title">Dołącz do nas</p>
+        <ul class="footer-social-media-list">
+          <li class="footer-social-media-list-item">
+            <svg class="footer-icon" width="44px" height="44px">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </li>
+          <li class="footer-social-media-list-item">
+            <svg class="footer-icon" width="44px" height="44px">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </li>
+          <li class="footer-social-media-list-item">
+            <svg class="footer-icon" width="44px" height="44px">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </li>
+          <li class="footer-social-media-list-item">
+            <svg class="footer-icon" width="44px" height="44px">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

@@ -263,7 +263,7 @@ footer {
   height: 252px;
   width: 1600px;
   margin: 0 auto;
-  padding: 60px 0 60px 215px;
+  display: flex;
 }
 
 address p {
@@ -275,6 +275,7 @@ address p {
   justify-content: center;
   margin-bottom: 50px;
 }
+
 .filter-list-item:not(:first-child) {
   margin-left: 8px;
 }
@@ -285,6 +286,12 @@ address p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+}
+
+.project-list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .project-list-item-description {
@@ -392,4 +399,50 @@ header {
   fill: var(--main-color);
   border-color: var(--main-color);
   cursor: pointer;
+}
+
+.footer-contact-section {
+  margin-top: 60px;
+  margin-left: 215px;
+}
+
+.footer-social-media-section {
+  margin-left: 70px;
+  margin-top: 72px;
+}
+
+.footer-social-media-title {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer-social-media-list {
+  list-style: none;
+  display: flex;
+}
+
+.footer-icon {
+  transform: scale(0.5);
+}
+
+.footer-social-media-list-item {
+  width: 44px;
+  height: 44px;
+  background-size: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: white;
+}
+
+.footer-social-media-list-item:not(:first-child) {
+  margin-left: 10px;
+}
+
+.footer-social-media-list-item:hover {
+  cursor: pointer;
+  background-color: var(--main-color);
 }
